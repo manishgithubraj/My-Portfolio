@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 220, 205);
+}
+
+#about {
+    padding: 50px;
+    background-color: #e3c0c0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    margin-top: 0;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 500px; 
+    overflow-y: scroll;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav a:hover {
+    color: #ff0000; /* Change the text color on hover */
+    font-weight: bold; /* Add bold font weight on hover */
+}
